@@ -7,6 +7,14 @@ Object.defineProperty(exports, "__esModule", {
 exports.default = void 0;
 var _react = _interopRequireDefault(require("react"));
 require("./modal.css");
+/**
+ * 
+ * @param {string} InsertText : Main text inside modal
+ * @param {string} buttonCloseName : Text of close button
+ * @param {function} closeModal : function onClick link to closing button
+ * @param {boolean} isOpen : Set if modal is open or not
+ * @returns modal component
+ */
 function Modal(_ref) {
   var _ref$InsertText = _ref.InsertText,
     InsertText = _ref$InsertText === void 0 ? 'Insert Text Here' : _ref$InsertText,
